@@ -1,0 +1,35 @@
+.userContainer {
+  margin: 0 auto 0;
+  width: 35%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.userContainer > img {
+  width: 25%;
+  border-radius: 50%;
+}
+.userContainer > span {
+  align-self: baseline;
+  padding: 0 20%;
+  margin: 2.5% 0;
+}
+.buttonDiv {
+  margin: 7% 0 0;
+}
+.btn {
+
+}
+.selButtonDiv {
+  display: inline-flex;
+}
+.rejectBtn {
+  padding: 2.5% 15%;
+  background: red;
+  outline: none;
+}
+.acceptBtn {
+  padding: 2.5% 15%;
+  background: green;
+  outline: none;
+}

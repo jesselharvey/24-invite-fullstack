@@ -1,0 +1,24 @@
+#userListContainer {
+  display: flex;
+  flex-flow: wrap;
+}
+.userCard {
+  width: 20%;
+  display: flex;
+  flex-flow: column;
+  margin: 2.5% 2.5%;
+
+}
+.userCard > img {
+  width: 25%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.userCard > span {
+  /* align-self: baseline; */
+  padding: 0 20%;
+  margin: 2.5% -10% 0 0;
+  display: inline-flex;
+  flex-flow: row nowrap;
+
+}
